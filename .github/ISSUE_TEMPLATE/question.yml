@@ -1,0 +1,17 @@
+name: Question
+description: Ask a public Tap Translate support question.
+title: "[Question]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not include private screenshots, personal text, API keys, account details, or anything sensitive in a public issue.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like help with?
+    validations:
+      required: true
